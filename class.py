@@ -31,3 +31,18 @@ print(Math.subtract(5,15))
 print(Math.multiply(5,5))
 print(Math.mod(5,5))
 print(Math.pow(5,5))
+
+class product_info:
+    def __init__(self, name, price, description, qty):
+        self.name = name
+        self.price = price
+        self.description = description
+        self.qty = qty
+    
+    def product_printer(self):
+        print(f'product name: {self.name}, product price: {self.price}, qty left: {self.qty}')
+
+
+product_one = product_info('nike air jordan', '3500 USD', 'What  shoe', 7 )
+
+product_one.product_printer()
