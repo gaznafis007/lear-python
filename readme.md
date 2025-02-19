@@ -1,4 +1,4 @@
-```markdown
+
 ## Learn Basic Python
 
 Welcome to the **Learn Basic Python** repository! This collection of Python scripts is designed to help beginners grasp the fundamentals of Python programming through practical examples and exercises.
