@@ -18,3 +18,12 @@ is_online = True
 
 converted_text = str(is_online)
 print(is_online, converted_text)
+
+language = int(input('Please enter your language course marks: '))
+history = int(input('Please enter your history course marks: '))
+math = int(input('Please enter your math course marks: '))
+
+total_marks = language + history + math
+avg_result = str(total_marks / 3)
+
+print('your average result of the marks is' + avg_result + 'and total marks is' + str(total_marks))
