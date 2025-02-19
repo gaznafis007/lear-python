@@ -46,3 +46,18 @@ class product_info:
 product_one = product_info('nike air jordan', '3500 USD', 'What  shoe', 7 )
 
 product_one.product_printer()
+
+class student_info:
+    def __init__(self, name, id, batch, dept, gpa):
+        self.name = name
+        self.id = id
+        self.batch = batch
+        self.dept = dept
+        self.gpa = gpa
+    
+    def student_profile(self):
+        print(f'Name: {self.name}; MetricId: {self.id}; Batch: {self.batch}; Dept: {self.dept}; C.G.P.A: {self.gpa}')
+
+me = student_info('John Doe', 2025345, '34th', 'Department of Artificial Intelligence', 3.88)
+
+me.student_profile()
