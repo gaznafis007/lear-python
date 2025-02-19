@@ -25,3 +25,13 @@ def get_info():
 info_name, info_age = get_info()
 
 print(info_age)
+
+def multiply_by_you(num_one, num_two):
+    return num_one, num_two, num_one * num_two
+
+number_one= int(input("Enter number:"))
+number_two= int(input("Enter another number: "))
+
+one, two, result = multiply_by_you(number_one, number_two)
+
+print(one, two, result)
