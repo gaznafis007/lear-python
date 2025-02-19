@@ -96,7 +96,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or suggestions:
 
 - **Name**: Gazi Nafis Md Abdullah
-- **Email**: [Your Email Address]
+- **Email**: gazinafisrafi.gnr@gmail.com
 - **GitHub**: [gaznafis007](https://github.com/gaznafis007)
 
 Happy coding!
