@@ -10,3 +10,19 @@ elif temperature < 10 and temperature == 3:
     print(str(temperature) + " It's been cold outside. Close the window")
 else:
     print(str(temperature) + " is extreme weather condition")
+
+
+marks = int(input('Enter your marks to get the grade: '))
+
+if marks >= 80:
+    print('Congratulations! you got A+')
+elif marks < 80 and marks >= 70:
+    print('Congratulations! you got A')
+elif marks < 70 and marks >= 60:
+    print('Congratulations! you got A-, push more')
+elif marks < 60 and marks >= 50:
+    print("You got B, work hard")
+elif marks < 50 and marks >= 40:
+    print("You passed, but need to concentrate more")
+else:
+    print("Sorry, You failed, please try again")
