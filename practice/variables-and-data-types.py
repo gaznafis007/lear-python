@@ -14,3 +14,12 @@ else:
     print("I am not a student")
 
 print("My balance is $",balance)
+
+# arithmetic operator
+varOne = 10
+varTwo = 20
+
+print(varOne + varTwo)
+print(varOne - varTwo)
+print(varOne * varTwo)
+print(varOne / varTwo)
