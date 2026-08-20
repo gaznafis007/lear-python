@@ -1,5 +1,16 @@
-name='john doe'
-age=28
-status=True
+# variables and data types
+# string, integer, float, boolean, none
 
-print(f'Hi! my name is {name} I am {age} years old and I am {'adult' if status >= 18 else 'not adult'}')
+name = "Gazi Nafis Md Abdullah"
+age = 28
+IsStudent = False
+balance = 245.98
+
+print('My name is ', name)
+print("My age is", age)
+if IsStudent:
+    print("I am a student")
+else:
+    print("I am not a student")
+
+print("My balance is $",balance)
